@@ -1,0 +1,45 @@
+﻿Câu 1:
+y = 1: S=s* x + 5 = 7
+y = 2: S=s* x + 5 = 49
+y = 3: S=s* x + 5 = 343
+y = 4: S=s* x + 5 = 2401
+Câu 2: ( 9 + 13) * 9
+Câu 3: vitri( A, 5)= 2;
+       a= A[ 2 +1 ]= A[3]= 7;
+Câu 4:Mảng A sau vòng for : A={ 10 2 8 15 7}
+A[1]: 8 A[4]: 7
+Câu 5 : 
+12      0       0
+4       0       0
+20      23      0
+Câu 6: 
+&c&c&c&c&c&c&c&c&c&c&c&c&c
+Dien Dien tu
+
+
+
+  
+phần sửa lỗi :
+Câu 2:
+    sửa lại :
+	int HamNhan(int a){
+	return 2 * a;
+	}
+    int  HamSum(int  a[], int n) {
+	int i, tong = 0;
+	for (i = 0; i <  n; i++) {
+		tong = tong + a[i];
+	}
+	return tong; 
+    }
+	void main ( void ){
+	int A[]= { 1, 3,1,2,4};
+	int B[5];
+	for ( int i=0; i < 5; i++){
+	   
+	   B[i]= HamNhan(A[i]);
+	KetQua = HamSum( B, 5);
+	printf ( "%d", KetQua);
+	  }
+
+	}
